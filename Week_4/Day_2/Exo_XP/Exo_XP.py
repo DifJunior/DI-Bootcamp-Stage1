@@ -37,7 +37,11 @@ print("-------------------Exercice 4-------------------")
 print("float est un type de variale qui represent les nombres rationnels\n")
 print("la difference entre les float et les int c'est la presente d'une partie decimale uniquement au niveau du float\n")
 print("En convertisant des int en float avec <float()>")
-liste=[1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5 ]
+liste=[]
+i=1
+while i < 5:
+    i+=0.5
+    liste.append(i)
 print("les elements de la liste sont : ",liste)
 
 print("-------------------Exercice 5-------------------")
